@@ -17,11 +17,9 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: none;
   font-size: 15px;
   color: white;
   text-align: left;
   padding: 10px;
-  text-align: auto;
   font-family: 'Stalemate', cursive;
 }
