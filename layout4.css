@@ -1,0 +1,58 @@
+main{
+	background: black;
+	color: white;
+}
+
+header{
+  text-align: right;
+  right: 0;
+  top: 0;
+  width: 100%;
+  background: black;
+  color: white;
+  flex-shrink: 0;
+  display: inline-flex;
+  padding-right: 10px;
+  font-family: 'Stalemate', cursive;
+  
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: none;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  text-align: auto;
+  font-family: 'Stalemate', cursive;
+}
+
+#nav-container {
+  display: flex;
+  order: 2;
+  flex-direction: row;
+}
+
+#nav-articles{
+	padding-left: 10px;
+	order: 1;
+	background: pink;
+}
+
+#nav-one, #nav-two{
+	order: -1;
+	padding-left: 10px;
+}
+
+#one{
+	display: flex;
+	flex-direction: column;
+}
+#two{
+	display: flex;
+	flex-direction: column;
+}
